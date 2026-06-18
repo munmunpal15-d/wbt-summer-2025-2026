@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Denotes required information</title>
+</head>
+<body>
+
+<form>
+    <fieldset>
+        
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="fname"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="lname"></td>
+            </tr>
+
+            <tr>
+                <td>Company:</td>
+                <td><input type="text" name="Company"></td>
+            </tr>
+
+            <tr>
+                <td>Address 1:</td>
+                <td><input type="text" name="Address 1"></td>
+            </tr>
+
+            <tr>
+                <td>Address 2:</td>
+                <td><input type="text" name="Address 2"></td>
+            </tr>
+
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="City"></td>
+            </tr>
+
+            <tr>
+                <td>State:</td>
+                <td>
+                    <select>
+                        <option>Select a State</option>
+                        <option>Dhaka</option>
+                        <option>Khulna</option>
+                        <option>Rajshahi</option>
+                        <option>Chattogram</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Zip Code</b></td>
+                <td><input type="text" pattern="[A-Za-z]" name="zipcode"></td>
+            </tr>
+
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <select>
+                        <option>Select a country</option>
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone number:</td>
+                <td><input type="text" pattern="[0-9]" name="phone number"></td>
+            </tr>
+
+            <tr>
+                <td>Fax:</td>
+                <td><input type="text" pattern="[0-9]" name="fax"></td>
+            </tr>
+
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+             <tr>
+                <td>Donation Amount:</td>
+                <td>
+                    <input type="radio" name="donation amount"> None
+                    <input type="radio" name="donation amount"> $50
+                    <input type="radio" name="donation amount"> $75
+                    <input type="radio" name="donation amount"> $100
+                    <input type="radio" name="donation amount"> $250
+                    <input type="radio" name="donation amount"> other
+                </td>
+            </tr>
+
+            <tr>
+                <td>(Check a button or type in your amount)</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>Other Amount $ <input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Recurring donation:</td>
+                <td>
+                    <input type="checkbox"> I am interested in giving on a regular basis <br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>(Check if yes)</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td> Monthly Credit Card $ <input type="text" pattern="[0-9]"> For <input type="text" pattern="[0-9]" > Months </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+            
+
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>
